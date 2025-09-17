@@ -3,9 +3,40 @@ body{
     text-align: center;
 }
 
+
 #font{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
+
+
+#msg{
+    font-size: 3rem;
+    color: yellow;
+}
+
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: rgb(157, 165, 165);
+}
+
+
+.btn{
+    height : 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 4rem;
+}
+
+
+.hide{
+    display: none;
+}
+ 
 
 .container{
     height: 70vh;
@@ -13,6 +44,7 @@ body{
     justify-content : center;
     text-align : center;
 }
+
 
 .game{
     height: 60vmin;
@@ -24,6 +56,7 @@ body{
     gap : 1.5vmin;
 }
 
+
 .box{
     height: 18vmin;
     width: 18vmin;
@@ -33,6 +66,7 @@ body{
     background-color:beige;
     font-size: 8vmin;
 }
+
 
 #reset-btn{
     padding: 1rem;
